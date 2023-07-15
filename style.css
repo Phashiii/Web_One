@@ -1,7 +1,10 @@
 
+body{
+    margin: 0;
+}
 .container{
     text-align: center;
-    background-color: #1F2937;
+    
 }
 /*Header*/
 .header{
@@ -9,7 +12,7 @@
     justify-content: center;
     align-items: center;
     gap: 395px;
-    margin-bottom: 50px;
+    background-color: #1F2937;
 }
 .header p{
     font-size: 24px;
@@ -32,22 +35,16 @@ a{
     text-decoration: none;
     color: #F9FAF8;
 }
-button{
-    background-color: #3882F6;
-    font-family: sans-serif;
-    color: #F9FAF8;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border-style: none;
-}
+
 /*First section*/
 .top_section{
     display: flex;
     justify-content: center;
     align-items: start;
     gap: 50px;
-    
-}
+    background-color: #1F2937;
+    padding: 80px 0px;
+}   
 .top_section h1{
     font-family: "Hero Main Text",sans-serif;
     font-size: 48px;
@@ -56,8 +53,9 @@ button{
     margin: 0px;
 }
 .top_section p{
-    margin: 0px;
+    margin:0px;
     font-size: 18px;
+    
 }
 .text_buttons{
     width: 400px;
@@ -66,21 +64,53 @@ button{
     font-family: sans-serif;
     color: #E5E7EB;
 }
+button{
+    background-color: #3882F6;
+    font-family: sans-serif;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
 /*Second section*/
 .second_section{
     background-color: #F9FAF8;   
 }
+.second_section h2{
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 50px;
+}
 .images_w_text{
     display: flex;
     justify-content: center;
+    gap: 50px;
 }
 .image{
-    width:300px;
+    width:150px;
 }
 .images_w_text img{
-    border: solid cyan;
-    border-radius: 25px;
-    width: 200px;
-    height: 200px;
+    border: solid #3882F6;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
+}
+/*Third section*/
+.third_section{
+    background-color: #E5E7EB;
+    padding: 80px 0px;
+}
+.quote_text{
+    width: 800px;
+    text-align: left;
+    margin: auto;
+    font-size: 36px;
+    font-family: "light italic";
+    color: #1F2937;
 }
