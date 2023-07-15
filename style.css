@@ -78,13 +78,16 @@ button{
 /*Second section*/
 .second_section{
     background-color: #F9FAF8;   
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 .second_section h2{
     font-family: sans-serif;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    margin: 50px;
+    margin-bottom: 50px;
+    margin-top: 0px;
 }
 .images_w_text{
     display: flex;
@@ -101,16 +104,26 @@ button{
     height: 150px;
     object-fit: cover;
 }
+
+
 /*Third section*/
 .third_section{
     background-color: #E5E7EB;
     padding: 80px 0px;
 }
-.quote_text{
-    width: 800px;
-    text-align: left;
+.quote_space{
+    width :800px;
     margin: auto;
-    font-size: 36px;
-    font-family: "light italic";
     color: #1F2937;
+}
+.quote_space .quote_text{
+    text-align: left;
+    font-size: 36px; 
+    font-family:'Courier New', Courier, monospace; 
+    font-weight:lighter; 
+}
+.quote_space p{
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: bolder;
 }
